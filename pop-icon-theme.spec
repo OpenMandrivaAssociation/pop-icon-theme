@@ -4,7 +4,7 @@ Release:        1
 Summary:        System76 Pop icon theme for Linux
 License:        CC-BY-SA-4.0
 URL:            https://github.com/pop-os/icon-theme
-Source0:        https://github.com/pop-os/icon-theme/archive/v%{version}/%{name}-%{version}.tar.gz
+Source0:        https://github.com/pop-os/icon-theme/archive/v%{version}/icon-theme-%{version}.tar.gz
 BuildRequires:  meson
 BuildRequires:  zstd
 BuildArch:      noarch
@@ -17,7 +17,7 @@ icons. Included in the theme are flat symbolic (single-color) icons as well as
 full-color stylized icons.
 
 %prep
-%autosetup -p1
+%autosetup -n icon-theme-%{version} -p1
 
 %build
 %meson
