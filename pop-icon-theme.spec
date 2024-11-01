@@ -1,5 +1,5 @@
 Name:           pop-icon-theme
-Version:        3.5.0
+Version:        3.5.1
 Release:        1
 Summary:        System76 Pop icon theme for Linux
 License:        CC-BY-SA-4.0
